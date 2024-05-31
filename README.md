@@ -67,3 +67,6 @@ curl -X GET http://localhost:5000/patients/1/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Blog
+[How to Implement Authorization with Django](https://www.permit.io/blog/fine-grained-authorization-with-django)
