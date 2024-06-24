@@ -21,10 +21,77 @@ A Django project for managing a hospital system using [Permit.io](https://app.pe
 ## Installation
 
 1. Clone the repository: `https://github.com/tyaga001/django-authorization.git`
-2. Cd into the project directory: `cd hsystem`
-3. Install the dependencies: `pip install -r requirements.txt`
-4. Apply database migrations: `python manage.py migrate` or `python manage.py migrate --run-syncdb` || `python manage.py makemigrations hsystem` || `python manage.py migrate`
-5. Start the development server: `python manage.py runserver 5000`
+
+2. **Cd into the project directory:**
+
+    ```sh
+    cd hsystem
+    ```
+
+3. **Create a virtual environment:**
+
+    ```sh
+    python3 -m venv venv
+    ```
+
+4. **Activate virtualenv:**
+
+    For general use:
+    
+    ```sh
+    source venv/bin/activate
+    ```
+
+    For zsh users:
+    
+    ```sh
+    source venv/bin/activate.zsh
+    ```
+
+    For bash users:
+    
+    ```sh
+    source venv/bin/activate.bash
+    ```
+
+    For fish users:
+    
+    ```sh
+    source venv/bin/activate.fish
+    ```
+
+5. **Install the dependencies:**
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+6. **Apply database migrations:**
+
+    ```sh
+    python manage.py migrate
+    ```
+
+    Or
+
+    ```sh
+    python manage.py migrate --run-syncdb
+    ```
+
+    Or
+
+    ```sh
+    python manage.py makemigrations hsystem
+    python manage.py migrate
+    ```
+
+7. **Start the development server:**
+
+    ```sh
+    python manage.py runserver 5000
+    ```
+
+
 
 ## Run your local PDP Microservice container
 
