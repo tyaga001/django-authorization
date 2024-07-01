@@ -137,3 +137,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Blog
 [How to Implement Authorization with Django](https://www.permit.io/blog/fine-grained-authorization-with-django)
+
+## Additional Resources
+
+- Follow my articles on [freeCodeCamp](https://www.freecodecamp.org/news/author/theankurtyagi/).
+- Visit my [personal blog](https://theankurtyagi.com/blog/) for more tech-related articles.
+
+Thank you for reading, and happy coding.
+
